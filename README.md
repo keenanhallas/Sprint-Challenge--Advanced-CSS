@@ -34,13 +34,35 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website will use media queries, but the element sizes at each breakpoint will still be hardcoded in pixels. On the
+other hand, a fully responsive website will use media queries, as well as responsive units such as % and rem to ensure that the
+site looks good at all screen sizes between the breakpoints.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+"Mobile first" design refers to the process of writing your CSS for a mobile screen size first, and then incorporating stylings
+for larger screen sizes by using "min-width" in your media queries. "Desktop first" is the opposite of "mobile first". With "desktop"
+first, you first write your stylings for a desktop screen size, and then add stylings for smaller screens by using "max-width" in
+your media queries. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+The default font size of a browser is 16px, so setting the font size to 62.5% makes the root font size 10px. This makes the math easy
+when sizing fonts using rem units.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+I would sum it up by saying that preprocessing is incorporating a new syntax for CSS that makes it quicker, easier, and more
+logical to write. It also adds some powerful features that don't exist in regular CSS, such as variables that make sites easier
+to edit across the entire site with one value change.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept in preprocessing is nesting, since it allows you to put your CSS stylings into a more logical order/structure,
+helping you to move around the code easier and know where in the file you need to look to style an element. I think the thing giving
+me the most trouble is just remembering to use the new features allowed in preprocessing, rather than writing in the basic CSS that
+I've gotten into the habit of using.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

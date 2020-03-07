@@ -169,9 +169,11 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #f5f5f5;
+  background: rgba(245, 245, 245, 0.95);
   width: 100%;
   padding-top: 1%;
+  position: fixed;
+  top: 0;
 }
 .topOfPage .navSection h1 {
   font-size: 4rem;
@@ -196,7 +198,7 @@ p {
 }
 .topOfPage img {
   border-radius: 5px;
-  margin: 0px auto;
+  margin: 109px auto;
 }
 @media (max-width: 767px) {
   .topOfPage img {

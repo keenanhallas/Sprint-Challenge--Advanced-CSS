@@ -198,7 +198,7 @@ p {
 }
 .topOfPage img {
   border-radius: 5px;
-  margin: 109px auto;
+  margin: 109px auto 0px auto;
 }
 @media (max-width: 767px) {
   .topOfPage img {
